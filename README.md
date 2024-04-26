@@ -15,3 +15,8 @@ docker build -t atcoder-container-cpp .
 ```
 
 カレントディレクトリに実行可能ファイル`a.out`ができます．
+
+実行
+```
+./a.out
+```
