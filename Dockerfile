@@ -3,7 +3,7 @@ FROM debian:bullseye-slim
 
 RUN apt update \
 	&& apt install -y \
-	&& apt install -y build-essential \	
+	build-essential \	
 	&& apt clean \
 	&& mkdir /data
 
