@@ -7,7 +7,7 @@ g++を使うためのリポジトリ
 docker build -t atcoder-container-cpp .
 ```
 
-カレントディレクトリ内でc++のプログラムを作る(例えばfuga/hoge.cppに書く)．
+カレントディレクトリ内でc++のプログラムを作る(例えば`fuga/hoge.cpp`に書く)．
 以下のコマンドで，コンパイル
 ```
 ./compile.sh fuga/hoge.cpp
